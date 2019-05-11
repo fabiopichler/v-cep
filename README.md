@@ -7,4 +7,4 @@ Pesquise por qualquer CEP e terá o resultado imediatamente, dum jeito muito rá
 
 O V-CEP é um aplicativo open source, totalmente gratuíto e que utiliza os serviços do webservice ViaCEP.
 
-(Link para acesso em breve)
+Acessar o V-CEP: https://projects.fabiopichler.net/v-cep/
