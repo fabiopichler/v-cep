@@ -1,0 +1,21 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+p {
+    margin-bottom: 10px;
+}

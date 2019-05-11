@@ -1,0 +1,23 @@
+.home-form {
+    max-width: 360px;
+    margin: 0 auto;
+
+    > div {
+        display: flex;
+        align-items: center;
+
+        .input-text {
+            margin: 0 8px 0 0;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    .info {
+        padding-top: 8px;
+    }
+
+    .error {
+        color: red;
+    }
+}

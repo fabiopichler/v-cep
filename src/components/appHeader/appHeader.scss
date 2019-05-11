@@ -1,0 +1,15 @@
+.app-header {
+    .desc-container,
+    .form-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .desc-container {
+        min-height: 140px;
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+    }
+}
