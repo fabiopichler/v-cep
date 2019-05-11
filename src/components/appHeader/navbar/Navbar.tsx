@@ -4,6 +4,8 @@ import M from 'materialize-css';
 
 import Nav from './nav/Nav';
 
+const url = process.env.PUBLIC_URL;
+
 const Navbar: React.FC = () => {
 
     useEffect(() => {
@@ -16,7 +18,7 @@ const Navbar: React.FC = () => {
         <>
             <nav className="nav-wrapper teal">
                 <div className="container">
-                    <Link to="/" className="brand-logo">V-CEP</Link>
+                    <Link to={`${url}/`} className="brand-logo">V-CEP</Link>
 
                     <a href="/" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
 
