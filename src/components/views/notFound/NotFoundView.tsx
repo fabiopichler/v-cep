@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 import { setPageTitle } from '../../../helpers/system';
 
-import H4 from '../../share/h4/H4';
+import H4 from '../../common/h4/H4';
 
 const NotFoundView: React.FC = () => {
 

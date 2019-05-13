@@ -7,7 +7,7 @@ import { useStoreContext } from '../../../store/StoreContext';
 
 import HomeContent from './homeContent/HomeContent';
 import HomeForm from './homeForm/HomeForm';
-import H4 from '../../share/h4/H4';
+import H4 from '../../common/h4/H4';
 
 const HomeView: React.FC = () => {
     const { state: { cepList, currentCep } } = useStoreContext();
