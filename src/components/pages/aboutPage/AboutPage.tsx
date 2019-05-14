@@ -18,7 +18,7 @@ const AboutPage: React.FC = () => {
 
             <p>Pesquise por qualquer CEP e terá o resultado imediatamente, dum jeito muito rápido e fácil.</p>
 
-            <p>O V-CEP é um aplicativo open source, totalmente gratuíto e que utiliza os serviços do webservice ViaCEP.</p>
+            <p>O V-CEP é um aplicativo open source, totalmente gratuito e que utiliza os serviços do webservice ViaCEP.</p>
         </div>
     );
 };

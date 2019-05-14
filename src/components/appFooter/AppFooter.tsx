@@ -9,7 +9,7 @@ const AppFooter: React.FC = () => (
                 <div className="col l6 s12">
                     <h5 className="white-text">ViaCEP</h5>
 
-                    <p className="grey-text text-lighten-4">Todas as consultas realizadas atravéz do V-CEP são servidas pelo webservice da ViaCEP.</p>
+                    <p className="grey-text text-lighten-4">Todas as consultas realizadas através do V-CEP são servidas pelo webservice da ViaCEP.</p>
                 </div>
 
                 <div className="col l4 offset-l2 s12">
