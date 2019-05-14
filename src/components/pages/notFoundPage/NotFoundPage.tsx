@@ -4,7 +4,7 @@ import { setPageTitle } from '../../../helpers/system';
 
 import H4 from '../../common/h4/H4';
 
-const NotFoundView: React.FC = () => {
+const NotFoundPage: React.FC = () => {
 
     useEffect(() => {
         setPageTitle('Página não encontrada');
@@ -25,4 +25,4 @@ const NotFoundView: React.FC = () => {
     );
 };
 
-export default NotFoundView;
+export default NotFoundPage;

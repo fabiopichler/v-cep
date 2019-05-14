@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-import './homeView.scss';
+import './homePage.scss';
 
 import { setPageTitle } from '../../../helpers/system';
 import { useStoreContext } from '../../../store/StoreContext';
@@ -9,7 +9,7 @@ import HomeContent from './homeContent/HomeContent';
 import HomeForm from './homeForm/HomeForm';
 import H4 from '../../common/h4/H4';
 
-const HomeView: React.FC = () => {
+const HomePage: React.FC = () => {
     const { state: { cepList, currentCep } } = useStoreContext();
 
     useEffect(() => {
@@ -46,4 +46,4 @@ const HomeView: React.FC = () => {
     );
 }
 
-export default HomeView;
+export default HomePage;

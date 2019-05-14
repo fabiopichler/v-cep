@@ -4,7 +4,7 @@ import { setPageTitle } from '../../../helpers/system';
 
 import H4 from '../../common/h4/H4';
 
-const AboutView: React.FC = () => {
+const AboutPage: React.FC = () => {
 
     useEffect(() => {
         setPageTitle('Sobre');
@@ -23,4 +23,4 @@ const AboutView: React.FC = () => {
     );
 };
 
-export default AboutView;
+export default AboutPage;
