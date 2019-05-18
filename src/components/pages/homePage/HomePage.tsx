@@ -23,13 +23,17 @@ const HomePage: React.FC = () => {
                 
                 {currentCep ? (
                     <>
-                        <H4>Resultado para: {currentCep.cep}</H4>
+                        <H4 description={`Exibindo o resultado para o CEP: ${currentCep.cep}`}>
+                            Resultado da Pesquisa
+                        </H4>
                         
                         <HomeContent cep={currentCep} />
                     </>
                 ) : null}
 
-                <H4>Últimas Pesquisas</H4>
+                <H4 description="Lista das suas 10 últimas pesquisas realizadas">
+                    Últimas Pesquisas
+                </H4>
 
                 {cepList.length === 0 ? (
                     <div className="card red accent-1">

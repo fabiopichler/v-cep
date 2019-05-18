@@ -2,8 +2,16 @@ import React from 'react';
 
 import './h4.scss';
 
-const H4: React.FC = ({ children }) => (
-    <h4 className="h4">{children}</h4>
+import { IH4Props } from './IH4Props';
+
+const H4: React.FC<IH4Props> = ({ children, description }) => (
+    <div className="h4">
+        <h4>{children}</h4>
+
+        {description ? (
+            <p>» {description}</p>
+        ) : null}
+    </div>
 );
 
 export default H4;
