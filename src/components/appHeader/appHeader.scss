@@ -7,9 +7,15 @@
     }
 
     .desc-container {
-        min-height: 140px;
-        font-size: 2rem;
+        min-height: 180px;
+        font-size: 1.6rem;
         color: white;
         text-align: center;
+        font-weight: 300;
+
+        .title {
+            font-weight: 300;
+            margin: 0 0 5px 0;
+        }
     }
 }
