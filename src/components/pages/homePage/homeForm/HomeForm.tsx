@@ -38,6 +38,8 @@ const HomeForm: React.FC = () => {
 
     return (
         <form onSubmit={onSubmit} className="home-form">
+            Insira um CEP para pesquisar:
+
             <div>
                 <input
                     value={cep}
