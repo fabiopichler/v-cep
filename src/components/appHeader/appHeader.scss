@@ -1,4 +1,6 @@
 .app-header {
+    margin-bottom: 30px;
+
     .desc-container,
     .form-container {
         display: flex;
@@ -8,6 +10,7 @@
 
     .desc-container {
         min-height: 180px;
+        padding: 30px 0;
         font-size: 1.6rem;
         color: white;
         text-align: center;

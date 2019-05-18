@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './appFooter.scss';
+
 import AppFooterLi from './appFooterLi/AppFooterLi';
 
 const AppFooter: React.FC = () => (
-    <footer className="page-footer grey darken-1">
+    <footer className="app-footer page-footer grey darken-1">
         <div className="container">
             <div className="row">
                 <div className="col l6 s12">
