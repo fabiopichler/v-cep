@@ -9,8 +9,8 @@ const Nav: React.FC<INavProps> = ({ id, className }) => {
 
     return (
         <ul id={id} className={className}>
-            <li><NavLink to={`${url}/`}>Início</NavLink></li>
-            <li><NavLink to={`${url}/sobre`}>Sobre</NavLink></li>
+            <li className="sidenav-close"><NavLink to={`${url}/`}>Início</NavLink></li>
+            <li className="sidenav-close"><NavLink to={`${url}/sobre`}>Sobre</NavLink></li>
         </ul>
     );
 };
